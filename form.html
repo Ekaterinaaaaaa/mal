@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href = "style.css">
+</head>
+<body>
+    <div class= "content">
+        <div class= "rect">
+           
+            <h1> <a href="start.html" class= "bigbut">🔙</a> Регистрация</h1>
+            <form action="act.php" class = 'input'  method= "POST">
+                <div class ="vvod">
+                    <div class= "title">ИМЯ</div>
+                    <input class ="inp" type="text" name ="imya">
+                </div>
+                <div class ="vvod">
+                    <div class= "title">ФАМИЛИЯ</div>
+                    <input class ="inp" type="text" name ="surname">
+                </div>
+                <div class ="vvod">
+                    <div class= "title"> ОТЧЕСТВО</div>
+                    <input class ="inp" type="text" name ="patronymic">
+                </div>
+                <div class ="vvod">
+                    <div class= "title"> ЖЕЛАЕМАЯ ДАТА НАЧАЛА ТУРА</div>
+                    <input class ="inp" type="date" name ="date1">
+                </div>
+                <div class ="vvod">
+                    <div class= "title"> ЖЕЛАЕМАЯ ДАТА КОНЦА ТУРА</div>
+                    <input class ="inp" type="date" name ="date2">
+                </div>
+                <div class ="vvod">
+                    <div class= "title"> EMAIL</div>
+                    <input class ="inp" type="email" name ="email">
+                </div>
+                <div class ="vvod">
+                    <div class= "title"> СКОЛЬКО ВАС?</div>
+                    <input class ="inp" type="text" name ="kolvo">
+                </div> 
+                <div class= "title">ВЫБЕРИТЕ ОСТРОВ</div>  
+                <select class ="sel"  type="select" name = "option3"> 
+                
+                   <option>Каафу</option>
+                   <option>Хулхумале</option>
+                   <option>Алифу</option>
+                   <option>Лавиани</option>
+                   <option>Хулуле</option>
+                   <option>Дхаалу</option>
+                   <option>Мииму</option>
+                    </select>
+                    <br>
+                    <div class= "title">
+                        <input type="checkbox" name="option1"  checked>СОГЛАСИТЬСЯ НА ОБРАБОТКУ ДАННЫХ</div>
+                        <div class= "title">
+                            <input type="checkbox" name="option2"  checked>СОГЛАСИТЬСЯ НА РАССЫЛКУ</div>
+                        
+                      <input class = 'but' type = 'submit' value = 'Зарегистрироваться'> 
+                      
+            
+            </form>
+
+ 
+        </div>
+    </div>
+    
+</body>
+</html>
